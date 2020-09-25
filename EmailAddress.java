@@ -18,7 +18,7 @@ public class Unit1Project {
 		String birthdate = keyboard.nextLine();
 
 			
-		System.out.println("Email: " + lastName.substring(0,lastName.length()).toLowerCase() + firstName.substring(0,1) + middleName.substring(0,1) + "@sharkmail.com");
+		System.out.println("Email: " + lastName.toLowerCase() + firstName.substring(0,1) + middleName.substring(0,1) + "@sharkmail.com");
 		System.out.println("Temp Password: " + birthdate);
 		System.out.println("*** This temporary password is very insecure.Please change it immediately! ***");
 		
